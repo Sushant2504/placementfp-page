@@ -742,6 +742,7 @@ h2 a {
     border-radius: 1%; 
     padding: 20px;
     color: black;
+    border: 2px solid black;
   }
 
   .pre{
@@ -749,7 +750,6 @@ h2 a {
   }
 
   .wrapper{
-      background-color: rgb(129, 129, 231);
       padding:  20px;
       
   }
