@@ -1,15 +1,16 @@
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-  }
-  body{
-    font-family: montserrat;
-    margin: 0;
-    padding: 0;
-  }
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat;
+  margin: 0;
+  padding: 0;
+}
   nav{
     background: #337EC2;
     height: 80px;
@@ -535,7 +536,7 @@ h2 a {
 .container {
     text-align: left;
     overflow: hidden;
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
   display: table;
   padding: 0 0 8em 0;
@@ -742,7 +743,7 @@ h2 a {
     border-radius: 1%; 
     padding: 20px;
     color: black;
-    border: 2px solid black;
+    border: 2px solid blue;
   }
 
   .pre{
@@ -753,4 +754,36 @@ h2 a {
       padding:  20px;
       
   }
+
+  #footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-left ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-left ul li {
+    margin-bottom: 10px;
+}
+
+.footer-left ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-right p {
+    margin-bottom: 10px;
+}
+
 
